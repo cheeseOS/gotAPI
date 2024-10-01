@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Página de Apresentação
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<!--   <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header> -->
+
+  <div id="container">
+    <p>Esta é a página de apresentação da Avaliação Formadora 2. Esta página contém dois botões
+    para as outras duas páginas exigidas para esta avaliação.</p>
+    <div class="texto">
+      <p>Cada botão leva a uma página que contém um propósito: <br>
+        "Página API" leva a uma página cujo único propósito é mostrar o uso da API selecionada.<br><br>
+        "Página ALUNO" leva a uma página cujo único propósito é mostrar o aluno responsável por essa avaliação.
+      </p>
+    </div>
+    <div class="btns">
+      <ion-button routerLink="/pagina1">Página API</ion-button>
+      <ion-button routerLink="/pagina2">Página ALUNO</ion-button>
+    </div>
+  </div>
+  
+</ion-content>
